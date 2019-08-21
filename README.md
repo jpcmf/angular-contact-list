@@ -1,6 +1,6 @@
 # Angular 8 Contact List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.  
 The main ideia is to create a CRUD with Angular and Firebase to save in the cloud some contacts of my record label [Compacto Records](http://www.compacotrecords.com.br).
 
 [View project](https://cr-contacts.netlify.com/)
