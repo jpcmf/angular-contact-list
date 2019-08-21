@@ -1,0 +1,45 @@
+<div class="card">
+  <div class="card-body">
+    <h3 class="mb-4">Adicionar contato</h3>
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+      <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="contactService.selectedContact.$key">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          #name="ngModel"
+          [(ngModel)]="contactService.selectedContact.name"
+          placeholder="Nome">
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          name="email"
+          #email="ngModel"
+          [(ngModel)]="contactService.selectedContact.email"
+          placeholder="E-mail">
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          name="occupation"
+          #occupation="ngModel"
+          [(ngModel)]="contactService.selectedContact.occupation"
+          placeholder="Ocupação">
+      </div>
+      <div class="form-group mt-4">
+        <div class="btn-group" role="group" aria-label="action buttons">
+          <button type="submit" class="btn btn-primary">
+            <fa-icon [icon]="faPlusCircle"></fa-icon> Adicionar contato
+          </button>
+          <button type="reset" class="btn btn-secondary" (click)="resetForm(contactForm)">
+            <fa-icon [icon]="faSyncAlt"></fa-icon> Limpar
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
