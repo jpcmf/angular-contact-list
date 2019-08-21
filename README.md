@@ -42,6 +42,5 @@ This site is hosted by [Netlify](https://www.netlify.com/) - the `/dist/` folder
 
 ## License
 
-MIT License © João Paulo C M Fricks
-
+MIT License © João Paulo C M Fricks  
 Made with ❤ in Brazil 2019
