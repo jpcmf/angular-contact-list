@@ -7,7 +7,7 @@ The main ideia is to create a CRUD with Angular and Firebase to save in the clou
 
 ## Build Setup
 
-The portfolio requires [Node.js](https://nodejs.org/) to run locally.
+The project requires [Node.js](https://nodejs.org/) to run locally.
 
 ## Install dependencies
 
